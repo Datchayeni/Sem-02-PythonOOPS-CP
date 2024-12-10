@@ -1,4 +1,4 @@
-"""class Student:
+class Student:
     def __init__(self,name,age,dept):
         self.name=name
         self.age=age
@@ -31,7 +31,7 @@ street=input("Enter your street:")
 state=input("Enter your state:")
 country=input("Enter your country:")
 std=StudentInfo(name,age,dept,street,state,country)
-std.info()"""
+std.info()
 
 class Employee:
     def __init__(self, name, age):
